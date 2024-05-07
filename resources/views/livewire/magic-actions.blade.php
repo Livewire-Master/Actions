@@ -43,5 +43,13 @@
     <p>
         Username: {{ $username }}
     </p>
-
+    <label for="input-username">
+        Username
+    </label>
+    <input
+        id="input-username"
+        name="username"
+        type="text"
+        wire:keydown.enter="$set('username', $event.target.value)"
+    >
 </div>

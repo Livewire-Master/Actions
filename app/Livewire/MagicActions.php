@@ -13,7 +13,6 @@ class MagicActions extends Component
      */
     public bool $is_dark = false;
 
-
     /**
      * Username
      *
