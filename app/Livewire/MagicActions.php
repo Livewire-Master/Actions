@@ -7,6 +7,21 @@ use Livewire\Component;
 class MagicActions extends Component
 {
     /**
+     * Dark mode indicator
+     *
+     * @var bool
+     */
+    public bool $is_dark = false;
+
+
+    /**
+     * Username
+     *
+     * @var string
+     */
+    public string $username = '';
+
+    /**
      * Query
      *
      * @var string
